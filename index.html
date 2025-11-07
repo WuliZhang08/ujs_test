@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UJS - 智能汽车诊断设备</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="UJS Logo" class="logo-img">
+                <span class="brand-name">UJS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能特点</a></li>
+                <li><a href="#specs">技术规格</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero 区域 -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <!-- <h1 class="hero-title">UJS</h1>
+                <p class="hero-subtitle">智能汽车诊断设备</p> -->
+                <p class="hero-description">
+                    专注于车辆诊断技术，为车主提供安全、易用且可靠的车辆监测解决方案<br>
+                    我们不仅提供检测工具，更提供保护、信心和对驾驶的掌控
+                </p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">了解更多</a>
+                    <a href="#contact" class="btn btn-secondary">立即咨询</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特点 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能</h2>
+            <p class="section-subtitle">全方位监测，智能预警，让每一次出行更安心</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>发动机监测</h3>
+                    <p>实时监控发动机转速、温度、油压等关键参数，智能诊断发动机工作状态，及时发现潜在故障</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌡️</div>
+                    <h3>水温检测</h3>
+                    <p>精准监测冷却系统温度，防止发动机过热，自动预警异常温度变化，保护发动机长期稳定运行</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔋</div>
+                    <h3>电池管理</h3>
+                    <p>监测电池电压、电流、健康状态，预测电池寿命，避免突然断电，确保车辆电力系统正常</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🛑</div>
+                    <h3>刹车系统</h3>
+                    <p>检测刹车片磨损程度、刹车油压力、ABS工作状态，确保制动系统安全可靠，守护行车安全</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>数据分析</h3>
+                    <p>智能数据采集与分析，生成详细检测报告，历史数据对比，帮助您了解车辆健康趋势</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚠️</div>
+                    <h3>智能预警</h3>
+                    <p>多级预警系统，声光提示，手机APP推送，确保您第一时间掌握车辆异常状态</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品展示 -->
+    <section class="product-showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-text">
+                    <h2>专业级检测精度</h2>
+                    <p class="highlight-text">采用先进传感器技术，确保每一项数据精准可靠</p>
+                    <ul class="showcase-list">
+                        <li>✓ 工业级传感器，精度±0.1%</li>
+                        <li>✓ 实时数据刷新，响应时间<100ms</li>
+                        <li>✓ 支持OBD-II标准接口</li>
+                        <li>✓ 兼容99%以上车型</li>
+                        <li>✓ 无线蓝牙连接，安装便捷</li>
+                    </ul>
+                </div>
+                <div class="showcase-image">
+                    <div class="product-detail">
+                        <img src="images/product-detail.png" alt="UJS 产品细节展示" class="product-detail-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术规格 -->
+    <section id="specs" class="specs">
+        <div class="container">
+            <h2 class="section-title">技术规格</h2>
+            
+            <div class="specs-grid">
+                <div class="spec-category">
+                    <h3>基本参数</h3>
+                    <table class="spec-table">
+                        <tr>
+                            <td>产品型号</td>
+                            <td>UJS-2000 Pro</td>
+                        </tr>
+                        <tr>
+                            <td>工作电压</td>
+                            <td>12V-24V DC</td>
+                        </tr>
+                        <tr>
+                            <td>工作温度</td>
+                            <td>-40°C ~ 85°C</td>
+                        </tr>
+                        <tr>
+                            <td>存储温度</td>
+                            <td>-50°C ~ 100°C</td>
+                        </tr>
+                        <tr>
+                            <td>防护等级</td>
+                            <td>IP67</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="spec-category">
+                    <h3>连接方式</h3>
+                    <table class="spec-table">
+                        <tr>
+                            <td>接口标准</td>
+                            <td>OBD-II 16针</td>
+                        </tr>
+                        <tr>
+                            <td>无线连接</td>
+                            <td>蓝牙5.0 / WiFi</td>
+                        </tr>
+                        <tr>
+                            <td>传输距离</td>
+                            <td>≤10米</td>
+                        </tr>
+                        <tr>
+                            <td>数据更新</td>
+                            <td>实时（<100ms）</td>
+                        </tr>
+                        <tr>
+                            <td>支持协议</td>
+                            <td>ISO 15765-4, ISO 14230-4等</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="spec-category">
+                    <h3>监测项目</h3>
+                    <table class="spec-table">
+                        <tr>
+                            <td>发动机</td>
+                            <td>转速、温度、负载、故障码</td>
+                        </tr>
+                        <tr>
+                            <td>冷却系统</td>
+                            <td>水温、冷却液液位</td>
+                        </tr>
+                        <tr>
+                            <td>电气系统</td>
+                            <td>电池电压、充电状态</td>
+                        </tr>
+                        <tr>
+                            <td>制动系统</td>
+                            <td>刹车片状态、ABS工作状态</td>
+                        </tr>
+                        <tr>
+                            <td>其他</td>
+                            <td>油耗、里程、车速等</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="spec-category">
+                    <h3>软件功能</h3>
+                    <table class="spec-table">
+                        <tr>
+                            <td>移动应用</td>
+                            <td>iOS / Android</td>
+                        </tr>
+                        <tr>
+                            <td>数据存储</td>
+                            <td>云端同步</td>
+                        </tr>
+                        <tr>
+                            <td>报告生成</td>
+                            <td>PDF/Excel导出</td>
+                        </tr>
+                        <tr>
+                            <td>预警推送</td>
+                            <td>实时通知</td>
+                        </tr>
+                        <tr>
+                            <td>固件升级</td>
+                            <td>OTA在线升级</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="company-img">
+                        <img src="images/company.jpg" alt="UJS 公司形象" class="company-image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>关于 UJS</h2>
+                    <p>
+                        UJS 是一个技术驱动的品牌，专注于车辆诊断设备，为车主提供安全、易用且可靠的车辆监测解决方案。我们的产品将智能传感技术与直观设计相结合，帮助用户随时掌握车辆健康状况——及时识别问题、避免昂贵的维修，确保每次旅程都安心无忧。
+                    </p>
+                    <p>
+                        在 UJS，我们相信每一次旅程都很重要。我们不仅仅提供检测工具——我们提供保护、信心和对驾驶的掌控。凭借先进的传感器技术和智能算法，UJS 产品已服务超过50万用户，为您的爱车提供24小时全方位守护。
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>50万+</h3>
+                            <p>服务用户</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>99%+</h3>
+                            <p>车型兼容</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>7×24</h3>
+                            <p>技术支持</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <p class="section-subtitle">如有任何疑问或需求，欢迎随时与我们联系</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                    <h4>客服热线</h4>
+                    <p>400-UJS-8888</p>
+                    <p class="small">工作时间：周一至周日 9:00-18:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                    <h4>电子邮箱</h4>
+                    <p>service@ujs.com</p>
+                    <p class="small">我们将在24小时内回复您的邮件</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>公司地址</h4>
+                            <p>中国上海市浦东新区</p>
+                            <p class="small">张江高科技园区科技路888号</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="联系电话" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="电子邮箱">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="留言内容" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">提交咨询</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🚗 UJS</h4>
+                    <p>专业车辆诊断设备品牌</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#features">功能特点</a></li>
+                        <li><a href="#specs">技术规格</a></li>
+                        <li><a href="#about">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <ul>
+                        <li>📞 400-UJS-8888</li>
+                        <li>✉️ service@ujs.com</li>
+                        <li>📍 上海市浦东新区</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>关注我们</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">微信</a>
+                        <a href="#" class="social-icon">微博</a>
+                        <a href="#" class="social-icon">抖音</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 UJS. 版权所有 | 沪ICP备XXXXXXXX号</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
